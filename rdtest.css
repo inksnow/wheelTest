@@ -1,0 +1,51 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.rd_wheel_combination{
+	width: 100%;
+	height: auto;
+	position: relative;	
+	margin-top: 150px;
+}
+
+.rd_display_area{
+	width: 100%;
+	height: auto;
+	position: absolute;	    
+}
+
+.rd_gallery{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.rd_gallery_img{
+	width: 50%;
+	height: auto;
+	position: absolute;
+	z-index: 0; 
+	  
+}
+.rd_button_left_right{
+		width: 50px;
+	height: 50px;
+		position: absolute;
+	background: rgba(255,255,255,0.0);
+	border: none;
+outline: none;
+		z-index: 4; 
+}
+
+.rd_button_left_right:active{
+opacity:0.3;
+}
+
+
+.rd_button_left_right_img{
+	width: 50px;
+	height: 50px;
+}
